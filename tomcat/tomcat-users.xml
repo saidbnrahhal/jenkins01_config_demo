@@ -51,7 +51,7 @@
   <role rolename="manager-gui"/>
   <role rolename="manager-script"/>
   <user username="tomcat" password="tomcat" roles="tomcat"/>
-  <user username="manger" password="tomcat" roles="tomcat,manager-gui"/>
+  <user username="manger" password="tomcat" roles="tomcat,admin-gui,manager-gui"/>
   <user username="jenkins" password="jenkins" roles="tomcat,manager-script"/>
 
 </tomcat-users>
